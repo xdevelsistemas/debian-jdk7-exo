@@ -39,6 +39,7 @@ RUN mkdir -p ${EXO_APP_DIR}
 RUN mkdir -p ${EXO_DATA_DIR}  && chown ${EXO_USER}:${EXO_GROUP} ${EXO_DATA_DIR}
 RUN mkdir -p ${EXO_TMP_DIR}   && chown ${EXO_USER}:${EXO_GROUP} ${EXO_TMP_DIR}
 RUN mkdir -p ${EXO_LOG_DIR}   && chown ${EXO_USER}:${EXO_GROUP} ${EXO_LOG_DIR}
+RUN mkdir -p /srv/downloads
 
 # Install eXo Platform
 RUN curl -L -o /srv/downloads/eXo-Platform-${EXO_EDITION}-${EXO_VERSION}.zip http://sourceforge.net/projects/exo/files/Platform4.1/eXo-Platform-${EXO_EDITION}-${EXO_VERSION}.zip/download && \
