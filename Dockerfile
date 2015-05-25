@@ -9,7 +9,7 @@
 #           docker run -d --name=exo exoplatform/ubuntu-jdk7-exo:plf-4.1.0
 #           docker run -d --name=exo -p 8080:8080 exoplatform/ubuntu-jdk7-exo:plf-4.1.0
 
-FROM       exoplatform/ubuntu-jdk7:7u71
+FROM       xdevelsistemas/debian-env:java7-env
 MAINTAINER DROUET Frederic <fdrouet+docker@exoplatform.com>
 
 # Environment variables
