@@ -30,7 +30,7 @@ RUN useradd --create-home --user-group --shell /bin/bash ${EXO_USER}
 # Install some useful or needed tools
 RUN apt-get -qq update && \
   apt-get -qq -y upgrade && \
-  apt-get -qq -y install libreoffice-calc libreoffice-draw libreoffice-impress libreoffice-math libreoffice-writer && \
+  apt-get -qq -y install curl libreoffice-calc libreoffice-draw libreoffice-impress libreoffice-math libreoffice-writer && \
   apt-get -qq -y autoremove && \
   apt-get -qq -y autoclean
 
