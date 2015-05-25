@@ -1,6 +1,6 @@
-# Ubuntu + Oracle jdk 7 + eXo Platform Community Docker container
+# Debian + Oracle jdk 7 + eXo Platform Community Docker container
 
-* Ubuntu 14.04
+* Debian jessie
 * Oracle JDK 7 update 71
 * eXo Platform 4.1.0 Community edition
 
